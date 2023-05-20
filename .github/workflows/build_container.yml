@@ -16,4 +16,6 @@ jobs:
         uses: devcontainers/ci@v0.3
         with:
           # Change this to be your CI task/script
-          runCmd: poetry --version
+          runCmd: |
+          bash ./week_03/run_lab_01.sh 
+          pwd
