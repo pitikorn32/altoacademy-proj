@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "lab-01"
+version = "0.1.0"
+description = ""
+authors = ["Pitikorn Khlaisamniang <121279047+pitikorn32@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "lab_01", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.30.0"
+pendulum = "^2.1.2"
+notebook = "^6.5.4"
+pandas = "^2.0.1"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
