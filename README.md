@@ -1,2 +1,2 @@
-# altoacademy-week3
+# altoacademy-proj
 python-basic
