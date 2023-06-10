@@ -8,6 +8,8 @@ packages = [{include = "env_06", from = "src"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+jupyter = "^1.0.0"
+ipykernel = "^6.23.1"
 
 
 [build-system]
