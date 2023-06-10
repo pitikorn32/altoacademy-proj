@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "env-06"
+version = "0.1.0"
+description = ""
+authors = ["Pitikorn Khlaisamniang <121279047+pitikorn32@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "env_06", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
