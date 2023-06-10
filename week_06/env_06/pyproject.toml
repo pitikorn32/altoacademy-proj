@@ -10,6 +10,7 @@ packages = [{include = "env_06", from = "src"}]
 python = "^3.10"
 jupyter = "^1.0.0"
 ipykernel = "^6.23.1"
+requests = "^2.31.0"
 
 
 [build-system]
